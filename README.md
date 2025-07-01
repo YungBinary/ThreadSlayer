@@ -7,7 +7,10 @@ A tool for defanging and anonymizing Hacking Forum PDF dumps that serves the fol
 
 ## Usage
 
-1. Save a hacking forum thread as PDF via web browser.
+1. Save a hacking forum thread as PDF via web browser print dialog, for example:
+
+![SAVE AS PDF HOW TO](https://github.com/user-attachments/assets/38afc575-e0a7-4385-8aa6-7b3bb33a47fb)
+  
 2. Pass the PDF or a directory containing PDFs to ThreadSlayer.
 
 ```

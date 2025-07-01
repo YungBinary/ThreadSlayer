@@ -10,8 +10,9 @@ A tool for defanging and anonymizing Hacking Forum PDF dumps that serves the fol
 1. Save a hacking forum thread as PDF via web browser print dialog, for example:
 
 ![SAVE AS PDF HOW TO](https://github.com/user-attachments/assets/38afc575-e0a7-4385-8aa6-7b3bb33a47fb)
-  
-2. Pass the PDF or a directory containing PDFs to ThreadSlayer.
+
+2. Edit ThreadSlayer.py with any usernames, user ids, or other information you want to redact, otherwise the output PDF could expose your account info on the hacking forum.
+2. Pass the PDF or a directory containing PDFs to ThreadSlayer. Note, the PDF will be overwritten, so you may want to make backups!
 
 ```
 usage: ThreadSlayer.py [-h] [-f FILE] [-d DIRECTORY]
